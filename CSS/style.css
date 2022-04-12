@@ -30,10 +30,24 @@ header {
   align-items: center;
   font-family: "Nanum Gothic Coding", monospace;
   font-size: larger;
+  list-style: none;
 }
 
 .nav__list li {
   margin: 2rem;
+}
+.nav__list li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+.nav__list li a:hover {
+  color: rgb(172, 33, 33);
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 100px;
+  transition: all 0.3s;
 }
 
 .main__img {
