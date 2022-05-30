@@ -17,12 +17,6 @@
 .active {
   background-color: red;
 }
-.nav > li > a.active,
-.nav > li > a.active,
-.nav > li > a:hover,
-.nav > li > a:focus {
-  background-color: brown;
-}
 
 .carousel-control.right,
 .carousel-control.left {
@@ -56,14 +50,14 @@
 
 .card {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .fstext {
   text-align: center;
   font-family: "Nanum Gothic Coding", monospace;
-  color: #6c757d;
+  color: rgb(108, 117, 125);
 }
 
 .card-img-top {
@@ -77,7 +71,7 @@
 }
 
 .texto__fs {
-  color: #6c757d;
+  color: rgb(108, 117, 125);
 }
 
 .grid {
@@ -87,19 +81,19 @@
 }
 
 .display-2 {
-  color: #6c757d;
+  color: rgb(108, 117, 125);
   text-align: center;
 }
 
 .subtitulo {
-  color: #6c757d;
+  color: rgb(108, 117, 125);
   text-align: center;
 }
 
 .intro-section {
-  justify-content: center;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .youtube {
@@ -125,3 +119,5 @@
   align-items: center;
   justify-content: center;
 }
+
+/*# sourceMappingURL=style.css.map */
