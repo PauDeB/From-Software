@@ -1,0 +1,10 @@
+$colors: (
+  fondo: #1a1e21,
+  texto: rgb(108, 117, 125),
+);
+
+@mixin centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

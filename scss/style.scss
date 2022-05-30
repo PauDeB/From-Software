@@ -1,0 +1,109 @@
+@import "variables";
+
+.texto__fs {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: larger;
+}
+
+.nav-link {
+  color: rgb(138, 32, 32);
+}
+
+.active {
+  background-color: red;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+  position: fixed;
+}
+
+.carousel-inner > .item {
+  /*disables white flash*/
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.underconstruction {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Open Sans Light";
+  font-variant: small-caps;
+  color: #fff;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  @include centrar;
+}
+
+.fstext {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  color: map-get($colors, texto);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.background {
+  color: map-get($colors, fondo);
+}
+
+.texto__fs {
+  color: map-get($colors, texto);
+}
+
+.grid {
+  @include centrar;
+}
+
+.display-2 {
+  color: map-get($colors, texto);
+  text-align: center;
+}
+
+.subtitulo {
+  color: map-get($colors, texto);
+  text-align: center;
+}
+
+.intro-section {
+  @include centrar;
+}
+
+.youtube {
+  @include centrar;
+}
+
+.intro-section {
+  @include centrar;
+}
+
+.gridos {
+  @include centrar;
+}
+
+.card-body {
+  @include centrar;
+}
